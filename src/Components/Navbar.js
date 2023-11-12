@@ -8,11 +8,22 @@ import './Navbar.css';
 
   const Navbar = () => {
     const [isMenuOpen, setMenuOpen] = useState(false);
-  
+    const [isClicked, setIsClicked] = useState(false);
     const toggleMenu = () => {
       setMenuOpen(!isMenuOpen);
     };
+   
+
+  const handleClick = () => {
+    setIsClicked(true);
+  };
+
   
+  const style = isClicked
+  ? { padding: '10px', color: 'white' }
+  : {};
+
+
     return (
       <nav className="navbar">
        
@@ -35,9 +46,14 @@ import './Navbar.css';
             </li>
             </ul>
           </div>
-          <a className="navbar-brand" href="#">
-            <HiUser fill="pink" size={70} />
-          </a>
+          <a
+    className="navbar-brand"
+    href="#"
+    onClick={handleClick}
+    style={style}
+  >
+    <HiUser fill="pink" size={70} />
+  </a>
    
       </nav>
     );
