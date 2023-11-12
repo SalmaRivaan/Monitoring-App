@@ -1,5 +1,11 @@
 Assignment for Pisence 
-Live link: https://schoolmonitoringapp.netlify.app/
+
+
+Live link:https://pisenceassignment.netlify.app/
+
+![image](https://github.com/SalmaRivaan/Monitoring-App/assets/111558265/4e64ed59-302b-4382-9e05-8fa8d9195926)
+
+![image](https://github.com/SalmaRivaan/Monitoring-App/assets/111558265/6e2ff8f0-73be-4d7e-9ad3-76358e9fd03f)
 
 # Getting Started with Create React App
 
